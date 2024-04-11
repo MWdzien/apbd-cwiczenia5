@@ -19,10 +19,5 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.MapGet("/animals", (Animal animal) =>
-{
-    return;
-});
-
 app.MapControllers();
 app.Run();
